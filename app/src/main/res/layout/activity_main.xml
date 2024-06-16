@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/grid1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <Button
+            android:id="@+id/btn1"
+            android:onClick="check"
+            android:backgroundTint="#60392F2F"/>
+        <Button
+            android:id="@+id/btn2"
+            android:onClick="check"
+            android:backgroundTint="#60392F2F"
+            android:layout_marginLeft="11dp"/>
+        <Button
+            android:id="@+id/btn3"
+            android:onClick="check"
+            android:backgroundTint="#60392F2F"
+            android:layout_marginLeft="11dp"/>
+        <Button
+            android:id="@+id/btn4"
+            android:onClick="check"
+            android:backgroundTint="#60392F2F"/>
+        <Button
+            android:id="@+id/btn5"
+            android:onClick="check"
+            android:backgroundTint="#60392F2F"
+            android:layout_marginLeft="11dp"/>
+        <Button
+            android:id="@+id/btn6"
+            android:onClick="check"
+            android:backgroundTint="#60392F2F"
+            android:layout_marginLeft="11dp"/>
+        <Button
+            android:id="@+id/btn7"
+            android:onClick="check"
+            android:backgroundTint="#60392F2F"/>
+        <Button
+            android:id="@+id/btn8"
+            android:onClick="check"
+            android:backgroundTint="#60392F2F"
+            android:layout_marginLeft="11dp"/>
+        <Button
+            android:id="@+id/btn9"
+            android:onClick="check"
+            android:backgroundTint="#60392F2F"
+            android:layout_marginLeft="11dp"/>
+
+
+
+
+    </GridLayout>
+
+
+
+
+
+</LinearLayout>
